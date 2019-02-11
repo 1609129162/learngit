@@ -1,6 +1,10 @@
-﻿git add readme.txt             //添加文件
+﻿cd 文件夹			//到达该文件夹位置
+git add readme.txt             //添加文件
 git add commit -m "注释"		//提交当前版本
 git status                    //查看当前状态
 git diff    		//查看当前状态，如果没有提交，则通过此命令查看修改的内容
 git reset --hard HEAD^        //返回上一版本
 git reset --hard id           //返回id号的时间
+mkdir name.txt		//创建文件夹
+pwd  			//到当前文件加
+git init			//GIT文件夹初始化
