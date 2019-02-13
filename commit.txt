@@ -11,3 +11,7 @@ git init			//GIT文件夹初始化
 
 git checkout -- readme.txt       //修改工作区（并未提交的内容）
 git reset HEAD <readme.txt>	//可以把暂态区的修改撤销掉
+git rm readme.txt		//删除文件
+git remote add origin git@github.com:1609129162/learngit.git		//关联一个远程库
+git push -u origin master      		//第一次推送master分支的所有内容
+git push origin master   		//之后推送最新修改
