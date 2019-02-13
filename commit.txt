@@ -17,10 +17,15 @@ git push -u origin master      		//第一次推送master分支的所有内容
 git push origin master   		//之后推送最新修改
 git clone git@github.com:1609129162/gitskills.git		//从远程克隆一个文件。
 
+
+div   为新创建的分支名
 git checkout -b dev   		//创建并切换
+git branch -d dev			//删除dev分支
 git branch dev			//创建分支
 git checkout dev			//切换到分支
 git branch			//查看当前分支位置
+git merge dev			//合并指定分支到当前分支
+
 
 pwd  			//查阅当前文件夹位置
 cd 文件夹			//到达该文件夹位置
